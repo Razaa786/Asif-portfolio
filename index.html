@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asif Raza • Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a class="logo" href="#top">AR</a>
+        <nav class="nav" aria-label="Primary">
+            <button id="navToggle" class="nav__toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Menu">☰</button>
+            <ul id="primaryNav" class="nav__list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero section" id="hero">
+        <div class="container">
+            <div class="glass">
+                <h1 class="hero__title">Hi, I'm <span>Asif Raza</span></h1>
+                <p class="hero__subtitle">Aspiring Computer Science graduate passionate about web development.</p>
+                <div class="hero__cta">
+                    <a class="btn" href="#projects">View Projects</a>
+                    <a class="btn btn--ghost" href="#contact">Hire Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container reveal">
+            <h2 class="section__title">Objective</h2>
+            <p>
+                Aspiring Computer Science graduate eager to apply my technical knowledge and problem-solving skills. Passionate about web development and contributing to innovative projects while enhancing my skills in a professional manner.
+            </p>
+        </div>
+    </section>
+
+    <section class="section alt" id="education">
+        <div class="container reveal">
+            <h2 class="section__title">Education</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>United University, Prayagraj</h3>
+                    <p>B.Tech in Computer Science and Engineering — Sep 2022 – May 2026</p>
+                </li>
+                <li>
+                    <h3>MMD Public School (CBSE), Ballia, UP</h3>
+                    <p>Senior Secondary (XII) — 2021 – 2022</p>
+                </li>
+                <li>
+                    <h3>Colonel's Public School (CBSE), Gurgaon, Haryana</h3>
+                    <p>Secondary (X) — 2019 – 2020</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="container reveal">
+            <h2 class="section__title">Internships</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Web Development Intern</h3>
+                    <p class="card__meta">IIIT Allahabad — Jun 2024 – Aug 2024</p>
+                    <ul>
+                        <li>Collaborated on designing and developing responsive web pages for the institute website.</li>
+                        <li>Improved user interface design to enhance usability and aesthetics.</li>
+                        <li>Applied HTML, CSS, and JavaScript to implement interactive features and optimize performance.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Full Stack Web Development Intern</h3>
+                    <p class="card__meta">United Mentor — Remote — Present</p>
+                    <ul>
+                        <li>Contributed to real-world industrial projects focusing on full stack web development solutions.</li>
+                        <li>Built on Online Panchayati portal with admin website using React and Node, ensuring end-to-end development.</li>
+                        <li>Delivered high-quality work and the project with 85% accuracy, demonstrating strong problem-solving and project management skills.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section alt" id="projects">
+        <div class="container reveal">
+            <h2 class="section__title">Projects</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>RESTRODUBY (E‑Commerce Website)</h3>
+                    <p class="card__meta">May 2024 – Jun 2024</p>
+                    <ul>
+                        <li>Developed a web app for restaurant table and seat reservations using HTML, CSS, JavaScript, MongoDB, and Node.js.</li>
+                        <li>Implemented user authentication, real‑time availability, and booking management.</li>
+                        <li>Integrated MongoDB for efficient data storage and used Node.js + Express for backend operations and API requests.</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>AI Mock Interviewer (React Native App)</h3>
+                    <p class="card__meta">Jan 2025 – Mar 2025</p>
+                    <ul>
+                        <li>Developed a React Native app for AI‑driven interviews.</li>
+                        <li>Integrated Google Gemini AI for intelligent question generation and response evaluation.</li>
+                        <li>Built a Node.js + Express backend and used PostgreSQL for storing user responses.</li>
+                        <li>Designed a responsive UI and used REST APIs for smooth communication between frontend and backend.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container reveal">
+            <h2 class="section__title">Skills</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Programming Languages</h3>
+                    <p class="card__meta">Core</p>
+                    <div class="badges">
+                        <span class="badge">C</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JavaScript</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Database Systems</h3>
+                    <div class="badges">
+                        <span class="badge">MySQL</span>
+                        <span class="badge">MongoDB</span>
+                        <span class="badge">PostgreSQL</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Tools & Libraries</h3>
+                    <div class="badges">
+                        <span class="badge">VS Code</span>
+                        <span class="badge">IntelliJ</span>
+                        <span class="badge">Excel</span>
+                        <span class="badge">Canva</span>
+                        <span class="badge">matplotlib</span>
+                        <span class="badge">Power BI</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Version Control</h3>
+                    <div class="badges">
+                        <span class="badge">Git</span>
+                        <span class="badge">GitHub</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section alt" id="certifications">
+        <div class="container reveal">
+            <h2 class="section__title">Certifications & Achievements</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>Web Development Certification — Internshala</h3>
+                    <p>Successfully completed comprehensive Web Development certification.</p>
+                </li>
+                <li>
+                    <h3>Tata Group — Generative AI Powered Data Analytics</h3>
+                    <p>Completed program with hands‑on experience in AI‑driven analytics.</p>
+                </li>
+                <li>
+                    <h3>Hackathons & Bootcamps</h3>
+                    <p>Active participation demonstrating teamwork and rapid prototyping.</p>
+                </li>
+                <li>
+                    <h3>UI/UX Design Certification — Great Learning</h3>
+                    <p>Completed training focused on design fundamentals and usability.</p>
+                </li>
+                <li>
+                    <h3>Data Structures & Algorithms Practice</h3>
+                    <p>Solved 100+ DSA problems on HackerRank; improved problem‑solving skills.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container reveal">
+            <h2 class="section__title">Contact</h2>
+            <div class="contact">
+                <div class="contact__list">
+                    <a href="tel:+918758609107">+91 8758609107</a>
+                    <a href="mailto:razaasif580@gmail.com">razaasif580@gmail.com</a>
+                    <a href="https://linkedin.com/in/asif-raza-7495b52a" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                    <p>Prayagraj, Uttar Pradesh — 211012, India</p>
+                </div>
+                <form class="contact__form" id="contactForm" novalidate>
+                    <div class="grid">
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name" required />
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email" required />
+                        </label>
+                    </div>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+                    <button class="btn" type="submit">Send Message</button>
+                    <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Asif Raza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
